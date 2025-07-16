@@ -1,0 +1,17 @@
+[
+    {
+        "ID": 0,
+        "NAMA": "",
+        "NAMA_PERUSAHAAN": "",
+        "SALDO_KAS": 0,
+        "SALDO_BANK": 0
+    },
+    {
+        "ID": "12",
+        "PW": "12",
+        "NAMA": "",
+        "NAMA_PERUSAHAAN": "",
+        "SALDO_KAS": 0,
+        "SALDO_BANK": 0
+    }
+]

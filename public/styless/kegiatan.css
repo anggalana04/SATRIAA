@@ -1,0 +1,296 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'montserrat';
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+
+
+}
+
+header {
+    width: 100%;
+    height: 30%;
+    color: white;
+    background-color: #FD4755;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF5CC; /* Background krem */
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 10px auto;
+    width: 90%;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.navbar .search {
+    display: flex;
+    align-items: center;
+    background-color: #E0E0E0; /* Warna abu-abu untuk kotak pencarian */
+    padding: 5px 10px;
+    border-radius: 20px;
+    gap: 5px;
+}
+
+.navbar .search input {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 14px;
+    color: #000;
+}
+
+.navbar .search button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navbar .menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar .menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.navbar .menu a:hover {
+    text-decoration: underline;
+}
+
+.navbar .profile {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .profile img {
+    height: 30px;
+    border-radius: 50%;
+}
+
+.content {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    
+}
+
+.searchbox {
+    width: 80%;
+    height: 7%;
+    background-color: aliceblue;
+    margin: -50px auto 0;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.drop-down-box select {
+    width: 10rem;
+    height: 2.5rem;
+    margin-block: 1.5rem;
+}
+
+
+.drop-down-box select option {
+    width: 2.5rem;
+    height: 1.5rem;
+}
+
+.form-input-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-block: 1rem;
+    margin-inline: 3rem;
+    
+}
+
+.form-input {
+    border-radius: 10px;
+    height: 2rem;
+    border: 0.3px solid black;
+}
+
+
+
+
+.confirm {
+    background-color: green;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: 0px;
+    
+}
+
+.reset {
+    background-color: red;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: 0px;
+}
+
+table {
+    height: 20%;    
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: center; /* Centers items in the row */
+    align-items: center;
+    margin-top: 3rem;
+    width: 80%;
+    max-width: 100%;
+    column-count: 3;
+}
+
+.card {
+    margin: 1rem;
+    height: 20rem;
+    width: 25%;
+    border-radius: 20px;
+}
+
+
+.card h2 {
+    margin: 0.9rem;
+}
+
+.subscription-section {
+    background-color: #FFD700; /* Warna kuning */
+    text-align: center;
+    margin: -50px auto 0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100; /* Memberikan ruang di kanan dan kiri */
+    max-width: 800px; /* Membatasi lebar maksimal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan */
+    margin-bottom: -30px;
+}
+
+.subscription-section h1 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #000;
+}
+
+.subscription-section p {
+    margin: 0 0 20px;
+    font-size: 16px;
+    color: #000;
+}
+
+.subscription-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.subscription-form input[type="text"],
+.subscription-form input[type="email"],
+.subscription-form select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.subscription-form button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscription-form button:hover {
+    background-color: #444;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .social-icons {
+    margin: 20px 0;
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+    color: #FFD700;
+    font-size: 18px;
+}
+
+.footer .social-icons a:hover {
+    color: #fff;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+input {
+    padding: 0.3rem;
+}
+
+text {
+    padding: 0.3rem;
+}
+
+input:focus {
+    outline: none; /* Remove the default browser outline */
+    border: 2px solid #FD4755; /* Add a green border */
+    background-color: #ffffff; /* Slight background color change */
+
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
